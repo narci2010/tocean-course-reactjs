@@ -1,0 +1,18 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+.fade-enter {
+  opacity: 100;
+  z-index: 10;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 15;
+  transition: opacity 2500ms ease-in;
+}
